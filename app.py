@@ -18,8 +18,8 @@ st.markdown("**Binomial Model & Black–Scholes Model (Actual vs Theoretical)**"
 # ======================
 st.sidebar.header("Input Parameters")
 
-symbol = st.sidebar.text_input("Underlying Symbol", value="^SPX")
-r_rate = st.sidebar.number_input("Risk Free Rate", value=0.0375, step=0.005)
+symbol = '^SPX
+r_rate = st.sidebar.number_input("Risk Free Rate", value=0.0375, step=0.0005)
 N = st.sidebar.slider("Binomial Steps", 10, 300, 100)
 
 # ======================
